@@ -24,7 +24,7 @@ time.sleep(1)
 
 # tìm id pass và nhập pass
 passw = browser.find_element_by_id('pass')
-passw.send_keys("password ")
+passw.send_keys("password")
 time.sleep(1)
 
 # tìm name login và đăng nhập
